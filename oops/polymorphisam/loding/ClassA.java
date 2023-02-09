@@ -1,11 +1,12 @@
 package oops.polymorphisam.loding;
 
 public class ClassA {
-	int a, b;
+	int a, b , c;
 
 	ClassA() {
 		a = 20;
 		b = 30;
+		c = 40;
 	}
 
 	void addition() {
@@ -13,11 +14,11 @@ public class ClassA {
 	}
 
 	void addition(int a) {
-		System.out.println(a + a);
+		System.out.println(a + b);
 	}
 
 	void addition(int a, int b) {
-		System.out.println(a * b);
+		System.out.println(a * b + c);
 	}
 
 	void addition(float a, float b) {
